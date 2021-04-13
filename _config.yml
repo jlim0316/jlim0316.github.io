@@ -15,19 +15,19 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "ko-KR"
+title                    : "DataScience Lab"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "Enterprise Analytics"  #site tagline that appears below site title in masthead
+name                     : "임지현"
+description              : "대용량 데이터로부터 통찰력과 지식을 얻고 추리하기 위한 과학적 방법론과, 풀려고 하는 문제 영역의 지식을 바탕으로 다양한 형식의 방대한 원천 데이터의 획득, 정제, 모델링, 통합 관리, 복합 분석, 기계 학습, 시각화 등 일련의 과정을 통해 인간과 사회에 유용한 디지털 솔루션을 만들어 적용"
+url                      : "https://jlim0316.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "jlim0316/jlim0316.github.io/" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+logo                     : #/assets/images/dslab_logo.jpg# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "DataScience Lab" # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
