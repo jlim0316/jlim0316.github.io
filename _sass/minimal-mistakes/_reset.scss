@@ -2,24 +2,26 @@
    STYLE RESETS
    ========================================================================== */
 
+/* @include breakpoint($medium)의 font-size가 본문사이즈이고, $large는 마크다운문법의 헤더사이즈, $x-large는 제목사이즈*/
+
 * { box-sizing: border-box; }
 
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 16px;
+  font-size: 14px;
 
-  @include breakpoint($medium) {
-    font-size: 18px;
+  @include breakpoint($medium) { 
+    font-size: 14px;
   }
 
   @include breakpoint($large) {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   @include breakpoint($x-large) {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   -webkit-text-size-adjust: 100%;
